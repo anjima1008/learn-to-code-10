@@ -1,0 +1,22 @@
+//program to display net salary
+
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  float da,ta,basicsalary,netsalary;
+  printf("Enter the basicsalary:\n",basicsalary);
+  scanf("%f",&basicsalary);
+  
+  /*da,ta,netsalary*/
+   da=(basicsalary *10)/100;
+   ta=(basicsalary*12)/100;
+   netsalary=basicsalary+da+ta;
+   
+  printf("netsalary:%f\n",netsalary);
+   
+  
+  return 0;
+}
